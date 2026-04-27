@@ -8,12 +8,12 @@ export default function Hero() {
           <p className="eyebrow mb-8">
             Insurance Brokerage &amp; Risk Management
           </p>
-          <h1 className="mb-7 font-sans font-bold text-[clamp(44px,6.6vw,92px)] leading-[0.98] tracking-[-0.04em]">
+          <h1 className="mb-7 font-serif text-[clamp(40px,6.2vw,84px)] leading-[1.02] tracking-tight">
             Right coverage.
             <br />
             Right price.
             <br />
-            Right <span className="text-ink-muted">now</span>.
+            Right <em className="italic">now</em>.
           </h1>
           <p className="mb-9 max-w-[52ch] text-[clamp(17px,1.5vw,20px)] leading-[1.55] text-ink-soft">
             We run your business profile against the full market so you
