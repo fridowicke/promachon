@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-canvas text-ink font-sans antialiased;
+    font-size: 17px;
+    line-height: 1.55;
+  }
+  h1, h2, h3, h4 {
+    @apply font-serif font-normal;
+    letter-spacing: -0.015em;
+  }
+  a:hover { opacity: 0.75; }
+}
+
+@layer components {
+  .eyebrow {
+    @apply text-[13px] font-medium uppercase text-ink-muted;
+    letter-spacing: 0.14em;
+  }
+  .label {
+    @apply text-[12px] font-medium uppercase text-ink-muted;
+    letter-spacing: 0.18em;
+  }
+  .btn {
+    @apply inline-flex items-center rounded-full px-6 py-3.5 text-[15px] transition-colors;
+  }
+  .btn-primary {
+    @apply bg-ink text-canvas border border-ink hover:bg-black;
+  }
+  .btn-ghost {
+    @apply border border-rule text-ink hover:border-ink;
+  }
+}
